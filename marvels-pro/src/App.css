@@ -1,0 +1,22 @@
+
+.card{
+  width: 30rem;
+  margin-left: 150px;
+  /* box-shadow: 2px 5px 29px; */
+
+}
+.card:hover{
+  box-shadow: 2px 5px 29px;
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
+  
+}
+#login-btn{
+  background-color: rgb(29, 223, 29);
+  font-weight: 500;
+  font-size: large;
+}
+#signup-btn{
+  font-weight: 500;
+  font-size: large;
+}
