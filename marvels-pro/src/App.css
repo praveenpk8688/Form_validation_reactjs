@@ -16,7 +16,41 @@
   font-weight: 500;
   font-size: large;
 }
+#btn-login{
+  background-color: rgb(29, 223, 29);
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 150px;
+
+}
 #signup-btn{
   font-weight: 500;
   font-size: large;
 }
+#btn-signup{
+  font-weight: 500;
+  font-size: large;
+  width: 150px;
+}
+#forgot{
+  margin-right: 20vh;
+}
+.fa-solid{
+position: relative;
+top: 25px;
+left: 26rem;
+}
+
+#signup-container, #login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column-reverse;
+  position: relative;
+  top: 200px;
+  right: 59px;
+
+  
+}
+

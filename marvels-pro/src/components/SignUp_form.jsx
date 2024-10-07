@@ -1,12 +1,15 @@
 import React from 'react'
-
 const SignUp_form=() => {
   return (
-    <div>
-        <div className="container ">
+    <div id='signup-form'>
+        <div className="container" id='signup-container'>
             <div className="row">
-                <div className="col-md-6 offset-md-3 p-4 ">
+                <div className="col-md-6  p-4 " id='signup-card'>
                     <div className="card ">
+                    <a href='./'>
+                    <i class="fa-solid fa-house fa-2xl"></i>
+                    </a>
+
                         <h2 className="text-center">SignUp</h2>
                         <div className="card-body">
                             <label className='login-label'>First Name</label>
@@ -27,6 +30,7 @@ const SignUp_form=() => {
                 </div>
             </div>
         </div>
+    
       
     </div>
   )
