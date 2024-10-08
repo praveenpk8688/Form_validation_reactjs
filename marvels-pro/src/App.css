@@ -7,7 +7,7 @@
 }
 .card:hover{
   box-shadow: 2px 5px 29px;
-  scale: 1.1;
+  scale: 1.05;
   transition: ease-in-out 0.5s;
   
 }
@@ -48,9 +48,25 @@ left: 26rem;
   align-items: center;
   flex-direction:column-reverse;
   position: relative;
-  top: 200px;
+  top: 10px;
   right: 59px;
 
   
+}
+.login-label{
+  font-weight:645;
+  margin-top: 20px;
+}
+.form-control{
+  margin-top: 10px;
+}
+u{
+  font-weight: 600;
+}
+span{
+  font-size: 15px;
+}
+#logo-homelogin{
+  color:rgb(29, 223, 29);
 }
 

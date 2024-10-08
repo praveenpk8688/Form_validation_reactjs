@@ -9,7 +9,7 @@ const Login_form=() => {
                 <div className="col-md-6  p-4 mt-4 ">
                     <div className="card">
                     <a href='./'>
-                    <i class="fa-solid fa-house fa-2xl"></i>
+                    <i class="fa-solid fa-house fa-2xl" id='logo-homelogin'></i>
                     </a>
                         <h2 className="text-center">Login</h2>
                         <div className="card-body">
@@ -18,7 +18,7 @@ const Login_form=() => {
                             <label className='login-label'>Password</label>
                             <input type="password" className="form-control" />
                             <a id='forgot' href="">Forgot password</a>
-                            <a id='create-account' href="#signup_form">Create an Account</a>
+                            <a id='create-account' href="/signup">Create an Account</a>
                             <button id='login-btn' className="btn btn-success w-100 mt-3">Login</button>
                         </div>
                     </div>
